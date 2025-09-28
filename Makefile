@@ -19,3 +19,6 @@ generate-env: ## Generate .env file from Terraform outputs
 
 run-app: ## Run the main application
 	@poetry run python src/main.py
+
+test: ## Run tests
+	@pytest
